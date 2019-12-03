@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="connexion.css" />
+    <title>Connectez-vous !</title>
+</head>
+
+<body >
+
+    <p class="titre_page">Bienvenue sur le site d'Eventa !</p>
+
+    <div class="bloc-entier">
+
+        <div class="bloc-connexion">
+
+            <h1 class="titre_formulaire">Connectez-vous !</h1>
+
+            <form action="/ma-page-de-traitement" method="post">
+                <div class="form_connexion" >
+                    <label for="name">Nom de l'entreprise :</label>
+                    <input type="text" id="name" name="ent_name">
+                </div>
+
+                <div class="form_connexion" >
+                    <label for="siret">Numéro de SIRET :</label>
+                    <input type="text" id="siret" name="num_siret">
+                </div>
+
+                <div class="form_connexion" >
+                    <label for="mdp">Mot de passe :</label>
+                    <input type="text" id="mdp" name="mdp">
+                </div>
+
+                <div class="button">
+                    <a href="#">Se connecter</a>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="lien_inscription" >
+            <p>Pas encore inscrit ? <a href="#">Inscrivez-vous ici !</a> </p>
+        </div>
+
+    </div>
+
+</body>
+</html>

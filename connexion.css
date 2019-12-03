@@ -1,0 +1,81 @@
+body {
+    background-color : #fbb974ff ;
+}
+
+.titre_page {
+    font-size : 50px ;
+    text-align : center ;
+
+    margin-top: 20vh;
+    transform: translateY(-50%);
+
+}
+
+.bloc-entier {
+    /*Pour centrer horizontalement le bloc*/
+    margin: 0 auto;
+    width: 600px;
+
+    /*Pour centrer verticalement le bloc*/
+    margin-top: 27vh;
+    transform: translateY(-50%);
+}
+
+.bloc-connexion {
+    /*Pour délimiter les contours du formulaire*/
+    background-color : #f89a8fff ;
+    border : 3px solid black ;
+    border-radius : 1em ;
+    padding : 1.3em ;
+    text-align : center ;
+}
+
+.titre_formulaire { /*Réglages du titre du formulaire*/
+    text-align : center ;
+    padding-top : 10px ;
+    padding-bottom : 20px;
+}
+
+.form_connexion {
+    font-size : 1.3em ;
+    padding-bottom : 40px ;
+}
+
+.button a { /*Réglages du bouton pour se connecter*/
+    padding: 15px 5px 10px 5px;
+    margin-top : 15px ;
+    font: Bold 1em Arial;
+    background: #39c0a5ff;
+    color: black;
+    width:130px;
+    border-radius:2px;
+    border:none;
+    display: inline-block;
+}
+
+a {
+    text-decoration : none ;
+    color : black ;
+}
+
+.button a:hover {
+    font-size : 1.1em ;
+}
+
+label {
+     display: inline-block;
+     width: 200px;
+     text-align: right;
+}
+
+.lien_inscription {
+    font-size : 1.3em ;
+    margin-top : 15px ;
+    text-align : center ;
+}
+
+.lien_inscription a:hover {
+    font-weight : bold ;
+    color : #f38775ff ;
+}
+
